@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
+import Container from './components/Container';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +11,8 @@ class App extends Component {
 			<div>
     			<Navbar />
 				<Jumbotron />
+				<Container />
+				<Footer />
 			</div>
     	)
   	};
