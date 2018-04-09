@@ -1,0 +1,16 @@
+.jumbotron {
+    height: 400px;
+    padding: 180px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
