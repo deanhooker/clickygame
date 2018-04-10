@@ -7,12 +7,37 @@ import Footer from './components/Footer';
 import characters from './characters.json';
 import './App.css';
 
+let score = 0;
+let guessedArray = [];
+let hiScore = 0;
+
+const newGame = () => {
+	guessedArray = [];
+}
 
 class App extends Component {
+
+	state = {
+		characters,
+		score
+	};
+
+	guessCharacter = id => {
+
+		if (!guessedArray.includes(id)) {
+			guessedArray.push(id);
+			score++;
+			console.log(guessedArray);
+		} 
+		else {
+			newGame();
+		}
+	}
+
 	render() {
     	return(
 			<div>
-    			<Navbar />
+    			<Navbar score={score} hiScore={hiScore}/>
 				<Jumbotron />
 				<Container>
 				{characters.map(character => 
@@ -20,6 +45,7 @@ class App extends Component {
 					id={character.id}
 					name={character.name}
 					image={character.webImage}
+					guessCharacter={this.guessCharacter}
 					/>
 				)}
 				</Container>
