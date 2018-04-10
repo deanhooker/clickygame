@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Stan Marsh",
+        "image": "./images/StanMarsh.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/c/c6/Stan-marsh-0.png/revision/latest?cb=20170721155858"
+    },
+    {
+        "id": 2,
+        "name": "Kyle Broflovski",
+        "image": "./images/KyleBroflovski.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/9/95/Kyle-broflovski.png/revision/latest?cb=20170725131924"
+    },
+    {
+        "id": 3,
+        "name": "Eric Cartman",
+        "image": "./images/EricCartman.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/c/c4/Eric-cartman.png/revision/latest?cb=20171121092247"
+    },
+    {
+        "id": 4,
+        "name": "Kenny McCormick",
+        "image": "./images/KennyMcCormick.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/1/14/Prototype-kenny-mccormick.png/revision/latest?cb=20170811093346"
+    },
+    {
+        "id": 5,
+        "name": "Bebe Stevens",
+        "image": "./images/BebeStevens.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/2/2b/2-436.png/revision/latest?cb=20160402112834"
+    },
+    {
+        "id": 6,
+        "name": "Butters Stotch",
+        "image": "./images/ButtersStotch.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/0/06/ButtersStotch.png/revision/latest?cb=20170322004353"
+    },
+    {
+        "id": 7,
+        "name": "ClydeDonovan",
+        "image": "./images/ClydeDonovan.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/9/9e/Clyde_d.png/revision/latest?cb=20170322004515"
+    },
+    {
+        "id": 8,
+        "name": "Craig Tucker",
+        "image": "./images/CraigTucker.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/c/c2/Craig-tucker.png/revision/latest?cb=20160402121203"
+    },
+    {
+        "id": 9,
+        "name": "Jimmy Valmer",
+        "image": "./images/JimmyValmer.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/6/63/Jimmy_valmer_here.png/revision/latest?cb=20170815180902"
+    },
+    {
+        "id": 10,
+        "name": "Token Black",
+        "image": "./images/TokenBlack.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/d/d3/Token_Black2.png/revision/latest?cb=20171014061951"
+    },
+    {
+        "id": 11,
+        "name": "Tweek Tweak",
+        "image": "./images/TweekTweak.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/9/9d/Tweek_pic.png/revision/latest?cb=20160402115548"
+    },
+    {
+        "id": 12,
+        "name": "Wendy Testaburger",
+        "image": "./images/WendyTestaburger.png",
+        "webImage": "https://vignette.wikia.nocookie.net/southpark/images/9/9e/Wendyy.png/revision/latest?cb=20171014061739"
+    }
+]
