@@ -11,33 +11,46 @@ let score = 0;
 let guessedArray = [];
 let hiScore = 0;
 
-const newGame = () => {
-	guessedArray = [];
-}
-
 class App extends Component {
 
 	state = {
 		characters,
-		score
+		score,
+		hiScore
 	};
+
+	newGame = () => {
+		
+		guessedArray = [];
+		score = 0;
+		this.setState({ score: 0 });
+	}
+
+	checkHiScore = score => {
+
+		if (score > this.state.hiScore) {
+			this.setState({hiScore: score});
+		}
+	}
 
 	guessCharacter = id => {
 
 		if (!guessedArray.includes(id)) {
 			guessedArray.push(id);
 			score++;
-			console.log(guessedArray);
+			this.setState({score: score});
+			this.checkHiScore(score);
 		} 
 		else {
-			newGame();
+			this.newGame();
 		}
 	}
 
+	
 	render() {
     	return(
 			<div>
-    			<Navbar score={score} hiScore={hiScore}/>
+    			<Navbar score={this.state.score} hiScore={this.state.hiScore}/>
 				<Jumbotron />
 				<Container>
 				{characters.map(character => 
