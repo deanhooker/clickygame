@@ -5,7 +5,6 @@ import Container from './components/Container';
 import CharacterCard from './components/CharacterCard';
 import Footer from './components/Footer';
 import characters from './characters.json';
-// import './App.css';
 
 let score = 0;
 let guessedArray = [];
